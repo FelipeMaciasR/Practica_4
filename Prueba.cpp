@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <enrutador.h>
 #include <red.h>
@@ -137,7 +138,7 @@ vector<string> menorRuta(string origen, string destino, map<string, map<string, 
     // Si no se pudo llegar al nodo destino, retornamos una ruta vacía
     return {};
 }
-
+*/
 
 
 

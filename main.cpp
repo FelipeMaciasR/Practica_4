@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 #include <enrutador.h>
 #include <red.h>
@@ -132,7 +132,7 @@ int main()
                 }
                 break;
             case 3: 
-                red.getEnrutadores().clear();
+                red.enrutadores.clear();
                 for (auto it = Enrutadores.begin(); it != Enrutadores.end(); ++it) {
                     red.AgregarEnrutador(*it);
                 }
@@ -272,4 +272,4 @@ vector<string> menorRuta(string origen, string destino, map<string, map<string, 
     // Si no se pudo llegar al nodo destino, retornamos una ruta vacía
     return {};
 }
-*/
+

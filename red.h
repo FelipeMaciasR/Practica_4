@@ -6,8 +6,9 @@
 
 class Red
 {
-    map<string, map<string, int>> enrutadores;
+
 public:
+    map<string, map<string, int>> enrutadores;
     Red();
     void AgregarEnrutador(Enrutador enrutador);
     void EliminarEnrutador(string nombreEnrutador);
